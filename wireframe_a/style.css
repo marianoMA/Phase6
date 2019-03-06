@@ -1,0 +1,41 @@
+body {
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+	display: square;
+}
+/* When writing CSS classes it is VERY important that you use hyphen delimited strings (square-div and NOT squareDiv) */
+/* Addtionally, you should know what the class does just by looking at the name (the name should be DESCRIPTIVE) */
+/* When thinking about sizing elements on your page, there are many different units you can use = https://www.w3schools.com/cssref/css_units.asp */
+.row {
+	height: calc(100%/3);
+	width: 100%;
+}
+.imageheight {
+	vertical-align: bottom;
+}
+.toprow {
+	display:flex;
+	height: 100%;
+	width: 70%;
+}
+.bottomleftcorner {
+	display:flex;
+	height: 100%;
+	width: 30%;
+}
+.toprightcorner {
+	display:flex;
+	height: calc(100%/3);
+	width: 100%;
+}
+/* When possible, organize CSS classes in alphabetical order */
+.black {
+	background-color: #282B30;
+}
+.ventcolor {
+	background-color: #766969;
+}
+
+.grey {
+	background-color: #FFFFFF;
